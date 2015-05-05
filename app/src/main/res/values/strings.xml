@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">לוחם הצדק</string>
+
+    <string name="title_section1">ראשי</string>
+    <string name="title_section2">הודעות טקסט</string>
+    <string name="title_section3">דואר אלקטרוני</string>
+    <string name="title_section4">הגדרות</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="home_title">לוחם הצדק נלחם עבורך!</string>
+    <string name="home_switch_sms">הודעות SMS</string>
+    <string name="home_switch_email">דואר אלקטרוני</string>
+</resources>
