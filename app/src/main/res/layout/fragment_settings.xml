@@ -46,8 +46,91 @@
         android:layout_width="match_parent"
         android:layout_height="0.5dp"
         android:background="@color/blue"
-        android:layout_marginTop="5dp"
-        android:layout_marginBottom="5dp"/>
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/title2"
+            android:text="קבל מיילים"
+            android:layout_alignParentRight="true"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="קבלת מיילים בדבר התקדמות תביעה"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/title2"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="10dp"
+
+            android:maxLines="2"
+            android:textSize="16dp"
+            />
+
+
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/switch_sms2"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            />
+    </RelativeLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/blue"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/title3"
+            android:text="מחיקת הודעות"
+            android:layout_alignParentRight="true"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="מחיקת הודעות בעת סינונן"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/title3"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="10dp"
+
+            android:maxLines="2"
+            android:textSize="16dp"
+            />
+
+
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/switch_sms3"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            />
+    </RelativeLayout>
+
+
+
 
 
 </LinearLayout>

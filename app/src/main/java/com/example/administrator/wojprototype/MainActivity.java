@@ -5,21 +5,17 @@ import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.ActionBar;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
-import android.content.Context;
-import android.os.Build;
 import android.os.Bundle;
-import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.support.v4.widget.DrawerLayout;
-import android.widget.ArrayAdapter;
-import android.widget.TextView;
 
 import com.example.administrator.wojprototype.fragments.HomeFragment;
-import com.example.administrator.wojprototype.fragments.SMSFragment;
+import com.example.administrator.wojprototype.fragments.LawSuitsFragment;
+import com.example.administrator.wojprototype.fragments.MessagesFragment;
 import com.example.administrator.wojprototype.fragments.SettingsFragment;
 
 
@@ -65,10 +61,10 @@ public class MainActivity extends ActionBarActivity
                 fragment = new HomeFragment();
             break;
             case 1:
-                fragment = new SMSFragment();
+                fragment = new MessagesFragment();
             break;
             case 2:
-                fragment = new SMSFragment();
+                fragment = new LawSuitsFragment();
             break;
             case 3:
                 fragment = new SettingsFragment();
@@ -165,7 +161,7 @@ public class MainActivity extends ActionBarActivity
         @Override
         public View onCreateView(LayoutInflater inflater, ViewGroup container,
                                  Bundle savedInstanceState) {
-            View rootView = inflater.inflate(R.layout.fragment_main, container, false);
+            View rootView = inflater.inflate(R.layout.fragment_messages, container, false);
             return rootView;
         }
 
